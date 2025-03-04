@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """Algoritmo de Pesquisa Binária"""
 
-__version__ = "0.1.0"
-__author__ = "Carlos Moreno"
-__license__ = "GPL-3.0-or-later"
-
 
 def pesquisa_binaria(lista, item):
     """Realiza uma pesquisa binária em uma lista ordenada para encontrar a
@@ -45,3 +41,36 @@ def pesquisa_binaria(lista, item):
         else:
             baixo = meio + 1
     return None
+
+
+if __name__ == "__main__":
+    print(pesquisa_binaria([1, 2, 3, 4, 5], 3))
+    print(pesquisa_binaria([1, 2, 3, 4, 5], 6))
+    print(pesquisa_binaria([1, 2, 3, 4, 5], 2))
+    print(
+        pesquisa_binaria(
+            [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+            ],
+            19,
+        )
+    )
