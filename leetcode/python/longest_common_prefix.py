@@ -17,5 +17,4 @@ if __name__ == '__main__':
     solution = Solution()
     print(f"'{solution.longestCommonPrefix(strs)}'")
     strs = ["dog","racecar","car"]
-    solution = Solution()
     print(f"'{solution.longestCommonPrefix(strs)}'")
